@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	
+	"github.com/tqheel/newmath"
+)
+			
 
 func main() {
-	fmt.Printf("Hello, mofos!\n")
+	fmt.Printf("Hello, mofos! Sqrt(2) = %v\n", newmath.Sqrt(2))
 }
